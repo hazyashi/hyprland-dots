@@ -1,0 +1,68 @@
+# -----------------------------------------------------
+# ALIASES
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# General
+# -----------------------------------------------------
+alias c='clear'
+alias ls='eza -a --icons=always'
+alias ll='eza -al --icons=always'
+alias lt='eza -a --tree --level=1 --icons=always'
+alias shutdown='systemctl poweroff'
+alias wifi='nmtui'
+
+# -----------------------------------------------------
+# Window Managers
+# -----------------------------------------------------
+
+alias Qtile='startx'
+# Hyprland with Hyprland
+
+# -----------------------------------------------------
+# System
+# -----------------------------------------------------
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+# -----------------------------------------------------
+# Qtile
+# -----------------------------------------------------
+alias res1='xrandr --output DisplayPort-0 --mode 2560x1440 --rate 120'
+alias res2='xrandr --output DisplayPort-0 --mode 1920x1080 --rate 120'
+alias setkb='setxkbmap de;echo "Keyboard set back to de."'
+
+# ashi added these shortcuts    
+alias pronoun-update='sudo dnf update'
+alias ct='clocktemp'
+alias helix='hx'
+alias yz='yazi'
+alias nf='neowofetch'
+alias ff='fastfetch'
+alias hf='hyfetch'
+alias kw='kew'
+alias bt='btop' #system monitor
+alias nvt='nvtop' #gpu monitor
+alias ht='htop' #process monitor
+alias clean='sudo dnf clean all' #clear package manager cache
+alias autoremove='sudo dnf autoremove' #remove unneeded/unused packages
+alias partition='lsblk' #view partitions 
+alias lsrepos='ls /etc/yum.repos.d/' #view repo list
+alias lsr='ls /etc/yum.repos.d/' #view repo list
+alias lsflatpak='flatpak list' #self explanatory lmfao
+alias lsfp='flatpak list'
+
+# basically a text file down here to remind ashi of some commands because shes a dumbass
+
+# cd = change directory (obviously but here for consistency)
+# mv = move file
+# fzf = search files
+# systemd-analyze = show boot times
+# df -lh = view partitions
+# less /proc/cpuinfo = cpu info
+# ill add more later im tired 
+#
+#
+#
+#
+#
+#
