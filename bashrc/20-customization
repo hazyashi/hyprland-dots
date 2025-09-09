@@ -5,4 +5,4 @@
 # -----------------------------------------------------
 # Prompt
 # -----------------------------------------------------
-eval "$(oh-my-posh init bash --config /home/rania/.config/ohmyposh/wholespace.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.config/ohmyposh/wholespace.omp.json)"
