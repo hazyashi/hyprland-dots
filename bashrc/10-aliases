@@ -50,6 +50,7 @@ alias lsrepos='ls /etc/yum.repos.d/' #view repo list
 alias lsr='ls /etc/yum.repos.d/' #view repo list
 alias lsflatpak='flatpak list' #self explanatory lmfao
 alias lsfp='flatpak list'
+alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 
 # basically a text file down here to remind ashi of some commands because shes a dumbass
 
